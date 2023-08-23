@@ -1,13 +1,19 @@
+import './Nav.css';
+import logo from '../assets/ElainaViolent.png'
+
 const Nav = () => {
-    return (
-        <header>
-            <nav>
-                <a href="/">
-                    <img src ="https://static.wikia.nocookie.net/majo-no-tabitabi/images/f/f1/ElainaViolent.jpg/revision/latest?cb=20210325134307"></img>
-                </a>
-            </nav>
-        </header>
-    )
+  return (
+    <nav>
+      <a href="/" className="logo-link">
+        <img src={logo} alt="Logo" className="logo" />
+      </a>
+      <ul>
+        <li><a href="/about">About</a></li>
+        <li><a href="/services">Projects</a></li>
+        <li><a href="/contact">Contact</a></li>
+      </ul>
+    </nav>
+  );
 }
 
-export default Nav
+export default Nav;
