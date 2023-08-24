@@ -1,10 +1,10 @@
 import './Nav.css';
-import logo from '../assets/ElainaViolent.png'
+import logo from '../assets/ElainaViolentLogo.png'
 
 const Nav = () => {
   return (
     <nav>
-      <a href="/" className="logo-link">
+      <a href="https://igoober.github.io/personal-web" className="logo-link">
         <img src={logo} alt="Logo" className="logo" />
       </a>
       <ul>
