@@ -29,22 +29,23 @@ const Carousel = ({ images }) => {
 
   return (
     <div className="carousel">
-      <div className="carousel-slides">
-        {images.map((_, index) => (
-          <div
-            key={index}
-            className={`carousel-slide-indicator ${index === currentIndex ? 'active' : ''}`}
-            onClick={() => goToSlide(index)}
-          />
-        ))}
-      </div>
       <div className="image-container" onClick={handleImageClick}>
         <img
           draggable={false}
           src={images[currentIndex]}
           alt={`Slide ${currentIndex}`}
         />
-        <div className="image-text">Yay</div> 
+        <div className="carousel-slides">
+          {images.map((_, index) => (
+            <div
+              key={index}
+              className={`carousel-slide-indicator ${index === currentIndex ? 'active' : ''}`}
+              onClick={() => goToSlide(index)}
+            />
+          ))}
+        </div>
+        <div className="image-text">Hi, I'm </div>
+        <div className='name'>Aaron Nguyen</div> 
       </div>
     </div>
   );

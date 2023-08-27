@@ -1,23 +1,44 @@
-/* components/Carousel.css */
-.carousel {
-  position: relative;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  padding: 20px;
+body {
+  margin: 0;
+  padding: 0;
 }
+.carousel img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain; 
+  object-position: center; 
+  border: none;
+  box-shadow: none;
+  opacity: .6;
+}
+
 
 .carousel img {
   width: 100%;
   height: 100%;
   object-fit: cover;
-  border: 1px solid #ccc;
-  box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.2);
+  border: none;
+  box-shadow: none;
+  opacity: .6;
 }
 
+.image-container {
+  position: relative;
+  width: 100%; /* Set width to 100% */
+  height: 100vh; /* Set height to 100vh */
+  overflow: hidden;
+}
+
+
 .carousel-slides {
+  position: absolute;
+  bottom: 10px;
+  left: 50%;
+  transform: translateX(-50%);
   display: flex;
-  margin-bottom: 10px;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
 }
 
 .carousel-slide-indicator {
@@ -32,24 +53,42 @@
 .carousel-slide-indicator.active {
   background-color: #007bff;
 }
-
-.image-container {
-  position: relative;
-  width: 100%;
-  height: 900px; 
-  overflow: hidden;
-}
-
 .image-text {
   position: absolute;
-  top: 50%;
+  top: 40%; 
   left: 50%;
   transform: translate(-50%, -50%);
   color: white;
-  font-size: 18px;
+  font-size: 60px; 
   font-weight: bold;
   text-align: center;
-  background-color: rgba(0, 0, 0, 0.5);
   padding: 10px;
   border-radius: 5px;
+}
+
+.name {
+  position: absolute;
+  top: 50%; 
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  font-size: 60px;
+  font-weight: bold;
+  text-align: center;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+@media (max-width: 768px) {
+  .image-text {
+    font-size: 40px; 
+    padding: 5px; 
+    margin-bottom: 5px; /* Adjust margin for smaller screens */
+  }
+  
+  .name {
+    font-size: 40px; 
+    padding: 5px; 
+    margin-top: 20px; /* Adjust margin for smaller screens */
+  }
 }

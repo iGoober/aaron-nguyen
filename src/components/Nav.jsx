@@ -1,6 +1,6 @@
 import './Nav.css';
 import logo from '../assets/ElainaViolentLogo.png'
-
+// Navbar Disappear: slideshow showing projects, about, and contact
 const Nav = () => {
   return (
     <nav>

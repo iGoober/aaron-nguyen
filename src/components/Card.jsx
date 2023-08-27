@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import './Card.css';
 
+// Make Cards Bigger / Make Animation when card is pressed
 const Card = ({ title, content, imageUrl }) => {
   const [expanded, setExpanded] = useState(false);
 
@@ -11,7 +12,7 @@ const Card = ({ title, content, imageUrl }) => {
   return (
     <div className={`card ${expanded ? 'expanded' : ''}`} onClick={handleCardClick}>
       <div className="card-image">
-        <img src={imageUrl} alt={title} />
+        {expanded ? null : <img src={imageUrl} alt={title} />}
       </div>
       <div className="card-content">
         <h2>{title}</h2>
