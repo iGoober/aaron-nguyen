@@ -21,16 +21,21 @@ const Carousel = ({ images }) => {
     const clickX = e.nativeEvent.offsetX;
     const halfWidth = containerWidth / 2;
     if (clickX < halfWidth) {
-      prevSlide(); 
+      prevSlide();
     } else {
-      nextSlide(); 
+      nextSlide();
     }
   };
 
   return (
     <div className="carousel">
-      <div className="image-container" onClick={handleImageClick}>
-        <img
+      <div className="image-container">
+        <div className="section-buttons">
+          <button>About</button>
+          <button>Project</button>
+          <button >Contact</button>
+        </div>
+        <img onClick={handleImageClick}
           draggable={false}
           src={images[currentIndex]}
           alt={`Slide ${currentIndex}`}
@@ -45,7 +50,7 @@ const Carousel = ({ images }) => {
           ))}
         </div>
         <div className="image-text">Hi, I'm </div>
-        <div className='name'>Aaron Nguyen</div> 
+        <div className='name'>Aaron Nguyen</div>
       </div>
     </div>
   );
