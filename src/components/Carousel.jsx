@@ -27,15 +27,23 @@ const Carousel = ({ images }) => {
     }
   };
 
+  const scrollToSection = (sectionId) => {
+    const section = document.getElementById(sectionId);
+    if (section) {
+      section.scrollIntoView({ behavior: 'smooth' });
+    }
+  };
+
   return (
     <div className="carousel">
       <div className="image-container">
         <div className="section-buttons">
-          <button>About</button>
-          <button>Project</button>
-          <button >Contact</button>
+          <button onClick={() => scrollToSection('about-section')}>About</button>
+          <button onClick={() => scrollToSection('projects-section')}>Projects</button>
+          <button onClick={() => scrollToSection('contact-section')}>Contact</button>
         </div>
-        <img onClick={handleImageClick}
+        <img
+          onClick={handleImageClick}
           draggable={false}
           src={images[currentIndex]}
           alt={`Slide ${currentIndex}`}
@@ -49,8 +57,8 @@ const Carousel = ({ images }) => {
             />
           ))}
         </div>
-        <div className="image-text">Hi, I'm </div>
-        <div className='name'>Aaron Nguyen</div>
+        <div className="image-text">Hi, I'm</div>
+        <div className="name">Aaron Nguyen</div>
       </div>
     </div>
   );

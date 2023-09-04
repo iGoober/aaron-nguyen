@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import './Card.css';
 
-const Card = ({ title, content, imageUrl }) => {
+const Card = ({ title, content, imageUrl, r1, r2, r3, r4 }) => {
   const [expanded, setExpanded] = useState(false);
 
   const handleCardClick = () => {
