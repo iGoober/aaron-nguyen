@@ -31,7 +31,7 @@ const App = () => {
         <div className="card-row">
           <Card
             title="Family"
-            content="This photo was taken a long time ago with me being the kid with the beanie."
+            content="this is plaksfmdkvgndfvbnsdf jgsdjfgn jdfnjghnsdjfgn kdsfmg ksdnfgkn sdfjgnjsdnfgjndj gndsjfgn djsn gjn"
             intro = "Meet the Nguyen family: love, laughter, and endless adventures await"
             imageUrl={img8} 
             item1="Supportive"
@@ -42,7 +42,7 @@ const App = () => {
           <Card
             title="School"
             intro = "Non nobis solum nati sumus — Not unto ourselves alone are we born"
-            content="I currently go to Wilamette University as a Computer Science Major! What I love most about Willamette are the professors and people! Starting my Freshmen year, I remember I didn't quite know what major I wanted to do, but the whole Computer Science Department treated me very well and I am super happy and grateful to be here!"
+            content="adfsgsdfg sdfgsdfg lsdfgm skdfmg kdfngjkmsd kfgjsdfgk mxcjvnd fWO0PRETIJ QWERUTH [EDFIGV JSDFNGOJ AWSERUGJBEODFGJ EDNFGI UBSDG "
             imageUrl={img7} 
             item1="hi!"
             item2="hi!"
@@ -52,7 +52,7 @@ const App = () => {
           <Card
             title="Everything Else"
             intro = "To live without passion is to merely exist; to live with passion is to truly thrive."
-            content="I absolutely love playing Tennis, while I am not too good at it, it allows me to spend time with my tennis friends who are like an extended family of mine. I also love playing video games! As a child, I was into The Legend of Zelda, Halo, Splinter Cell, and more. Nowadays I like playing RPG games to relax and enjoy a new world."
+            content="sdfgksdfgsjdkfngsdjfgn sdfng jsdbnfg nsdfjgn sdjfgnj sdnfgj nsdfjg nsdjfvn djsfng hjsdfngks dnfjgnd sfkgn jsdfngj dsnfjg nsdjfgn jsdfng jdsnfgj dnsfjgn "
             imageUrl={img5} 
             item1="hi!"
             item2="hi!"
