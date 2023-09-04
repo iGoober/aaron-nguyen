@@ -6,15 +6,14 @@
 
 .card-row {
   display: flex;
-  flex-wrap: wrap; 
+  flex-wrap: wrap;
   justify-content: center;
   margin-top: 20px;
 }
 
 .card {
-  width: calc(100% - 20px); 
-  /* change here */
-  max-width: 475px; 
+  width: calc(100% - 20px);
+  max-width: 475px;
   border: 1px solid rgba(255, 255, 255, 0.2);
   border-radius: 10px;
   padding: 20px;
@@ -27,6 +26,11 @@
   background-color: #1a1a1a;
   color: rgba(255, 255, 255, 0.87);
   box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+  overflow: hidden; 
+}
+
+.card:hover {
+  transform: scale(1.01); 
 }
 
 .card h2 {
@@ -50,28 +54,29 @@
 }
 
 .card img {
-  width: 100%; 
+  width: 100%;
   max-width: 100%;
   border-radius: 5px;
 }
+
 .list {
   display: grid;
   font-size: 18px;
   font-weight: bold;
-  grid-template-columns: repeat(2, 1fr); 
-  grid-gap: 10px; 
-  list-style: none; 
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 10px;
+  list-style: none;
   padding: 0;
-  margin-top: 10px; 
+  margin-top: 10px;
 }
 
 .list li {
   padding: 10px;
-  text-align: center; 
+  text-align: center;
 }
 
 .card.expanded .intro {
   font-weight: bold;
   text-align: center;
-  font-size: 28px;
+  font-size: 30px;
 }
