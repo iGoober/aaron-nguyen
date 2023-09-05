@@ -11,7 +11,7 @@ const Card = ({ title, content, intro, imageUrl, item1, item2, item3, item4 }) =
   return (
     <div className={`card ${expanded ? 'expanded' : ''}`} onClick={handleCardClick}>
       <div className="card-image">
-        {expanded ? null : <img src={imageUrl} alt={title} />}
+        {expanded ? null : <img src={imageUrl} draggable={false} alt={title} />}
       </div>
       <div className="card-content">
         {expanded ? null : <h2>{title}</h2>}
