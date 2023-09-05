@@ -31,8 +31,8 @@ const App = () => {
         <div className="card-row">
           <Card
             title="Family"
-            content="this is plaksfmdkvgndfvbnsdf jgsdjfgn jdfnjghnsdjfgn kdsfmg ksdnfgkn sdfjgnjsdnfgjndj gndsjfgn djsn gjn"
-            intro = "Meet the Nguyen family: love, laughter, and endless adventures await"
+            content="This picture was taken a long time ago when I was still a kid. That is me in the Beanie! "
+            intro = "Meet my family, where you'll find love, humor, and countless adventures."
             imageUrl={img8} 
             item1="Supportive"
             item2="Joyful"
@@ -61,8 +61,17 @@ const App = () => {
           />
         </div>
       </div>
-      <div className="card-container" id="projects-section">
-        <h1>Projects</h1>
+      <div className="card-container" id="work-section">
+        <h1>Work</h1>
+      </div>
+      <div>
+        {/* Stuff here */}
+      </div>
+      <div className="card-container" id="contact-section">
+        <h1>Contact</h1>
+      </div>
+      <div>
+        {/* Stuff here */}
       </div>
     </div>
   );

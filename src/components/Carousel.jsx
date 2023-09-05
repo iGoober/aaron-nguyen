@@ -39,7 +39,7 @@ const Carousel = ({ images }) => {
       <div className="image-container">
         <div className="section-buttons">
           <button onClick={() => scrollToSection('about-section')}>About</button>
-          <button onClick={() => scrollToSection('projects-section')}>Projects</button>
+          <button onClick={() => scrollToSection('work-section')}>Work</button>
           <button onClick={() => scrollToSection('contact-section')}>Contact</button>
         </div>
         <img
