@@ -13,8 +13,8 @@ const Card = ({ title, content, intro, imageUrl, item1, item2, item3, item4 }) =
       <div className="card-image">
         {expanded ? null : <img src={imageUrl} draggable={false} alt={title} />}
       </div>
+      {expanded ? null : <h2>{title}</h2>}
       <div className="card-content">
-        {expanded ? null : <h2>{title}</h2>}
         {expanded && <img src={imageUrl} draggable={false} alt={title} />}
         <div className = "card-text">
           {expanded && <p className="intro">{intro}</p>}

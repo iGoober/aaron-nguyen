@@ -21,12 +21,11 @@
   cursor: pointer;
   display: flex;
   flex-direction: column;
-  align-items: center;
   background-color: #1a1a1a;
   color: rgba(255, 255, 255, 0.87);
   box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
   overflow: hidden;
-  transition: width .5s;
+  transition: width .5s ease-out;
 }
 
 
@@ -35,6 +34,7 @@
 }
 
 .card h2 {
+  max-height: 36px;
   margin: 5px 0;
   font-size: 24px;
   text-align: center;
