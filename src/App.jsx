@@ -42,7 +42,7 @@ const App = () => {
           <Card
             title="School"
             intro = "Non nobis solum nati sumus — Not unto ourselves alone are we born"
-            content="adfsgsdfg sdfgsdfg lsdfgm skdfmg kdfngjkmsd kfgjsdfgk mxcjvnd fWO0PRETIJ QWERUTH [EDFIGV JSDFNGOJ AWSERUGJBEODFGJ EDNFGI UBSDG "
+            content="adfsgsdfg sdfgsdV JSDFNGOJ AWSERUGJBEODFGJ EDNFGI UBSDG "
             imageUrl={img7} 
             item1="hi!"
             item2="hi!"
@@ -52,7 +52,6 @@ const App = () => {
           <Card
             title="Everything Else"
             intro = "To live without passion is to merely exist; to live with passion is to truly thrive."
-            content="sdfgksdfgsjdkfngsdjfgn sdfng jsdbnfg nsdfjgn sdjfgnj sdnfgj nsdfjg nsdjfvn djsfng hjsdfngks dnfjgnd sfkgn jsdfngj dsnfjg nsdjfgn jsdfng jdsnfgj dnsfjgn "
             imageUrl={img5} 
             item1="hi!"
             item2="hi!"

@@ -15,9 +15,11 @@ const Card = ({ title, content, intro, imageUrl, item1, item2, item3, item4 }) =
       </div>
       <div className="card-content">
         {expanded ? null : <h2>{title}</h2>}
-        {expanded && <p className="intro">{intro}</p>}
-        {expanded && <p>{content}</p>}
-        {expanded && (
+        {expanded && <img src={imageUrl} draggable={false} alt={title} />}
+        <div className = "card-text">
+          {expanded && <p className="intro">{intro}</p>}
+          {expanded && <p>{content}</p>}
+          {expanded && (
           <ul className="list">
             <li>{item1}</li>
             <li>{item2}</li>
@@ -25,6 +27,7 @@ const Card = ({ title, content, intro, imageUrl, item1, item2, item3, item4 }) =
             <li>{item4}</li>
           </ul>
         )}
+        </div>
       </div>
     </div>
   );
