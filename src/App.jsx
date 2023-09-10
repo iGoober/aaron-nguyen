@@ -9,6 +9,7 @@ import img6 from './assets/funny.jpg'
 import img7 from './assets/cropped2.jpg'
 import img8 from './assets/cropped3.jpg'
 import Card from './components/Card';
+import Contact from './components/Contact';
 import './App.css'
 
 const App = () => {
@@ -66,11 +67,13 @@ const App = () => {
       <div>
         {/* Stuff here */}
       </div>
-      <div className="card-container" id="contact-section">
-        <h1>Contact</h1>
-      </div>
-      <div>
-        {/* Stuff here */}
+      <div className ="dark">
+        <div className="card-container" id="contact-section">
+          <h1>Contact</h1>
+        </div>
+        <div>
+          <Contact/>
+        </div>
       </div>
     </div>
   );
