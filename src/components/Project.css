@@ -1,0 +1,40 @@
+.project-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 20px;
+    border-radius: 5px;
+    margin: 20px;
+  }
+  
+  .project-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+  }
+  
+  .project-image img {
+     border-radius: 20px;
+    max-width: 100%;
+    max-height: 150px; 
+    margin-right: 10px; 
+  }
+  
+  .project-details {
+    text-align: left; 
+    max-width: 500px;
+  }
+  
+  .project-details h3 {
+    font-size: 1.2rem;
+    margin: 0;
+    overflow-wrap: break-word;
+  }
+  
+  .project-details p {
+    font-size: 1rem;
+    overflow-wrap: break-word;
+  }
+  

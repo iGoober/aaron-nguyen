@@ -10,6 +10,7 @@ import img7 from './assets/cropped2.jpg'
 import img8 from './assets/cropped3.jpg'
 import Card from './components/Card';
 import Contact from './components/Contact';
+import Project from './components/Project';
 import './App.css'
 
 const App = () => {
@@ -65,7 +66,34 @@ const App = () => {
         <h1>Work</h1>
       </div>
       <div>
-        {/* Stuff here */}
+        <Project
+          title="Willamette I.T."
+          imageUrl={img1}
+          description="SJNJSDFGBNJBFGBDFuahsdfgajdfghhsdfbghsdfgjdnfgjdsjfgnjsdfgnjsdnfgjsdnfjgnsdfjgnsdjfgnjsdfgnjsdfngjsdfng"
+          bulletPoints={['Point 1', 'Point 2', 'Point 3']}
+          additionalDescription="Additional optional description."
+        />
+          <Project
+            title="My Project"
+            imageUrl={img1}
+            description="<strong>This is the main</strong> project description."
+            bulletPoints={['Point 1', 'Point 2', 'Point 3']}
+            additionalDescription="Additional optional description."
+        />
+          <Project
+            title="My Project"
+            imageUrl={img1}
+            description="<strong>This is the main</strong> project description."
+            bulletPoints={['Point 1', 'Point 2', 'Point 3']}
+            additionalDescription="Additional optional description."
+        />
+          <Project
+            title="My Project"
+            imageUrl={img1}
+            description="<strong>This is the main</strong> project description."
+            bulletPoints={['Point 1', 'Point 2', 'Point 3']}
+            additionalDescription="Additional optional description."
+        />
       </div>
       <div className ="dark">
         <div className="card-container" id="contact-section">
