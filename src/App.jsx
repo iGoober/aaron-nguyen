@@ -8,6 +8,10 @@ import img5 from './assets/IMG_8782.jpg'
 import img6 from './assets/funny.jpg'
 import img7 from './assets/cropped2.jpg'
 import img8 from './assets/cropped3.jpg'
+import gif from './assets/1.gif'
+import willamette from './assets/willamette.png'
+import faveshop from './assets/faveshop.png'
+import animecharacters from './assets/animecharacters.png'
 import Card from './components/Card';
 import Contact from './components/Contact';
 import Project from './components/Project';
@@ -68,28 +72,28 @@ const App = () => {
       <div>
         <Project
           title="Willamette I.T."
-          imageUrl={img1}
+          imageUrl={willamette}
           description="SJNJSDFGBNJBFGBDFuahsdfgajdfghhsdfbghsdfgjdnfgjdsjfgnjsdfgnjsdnfgjsdnfjgnsdfjgnsdjfgnjsdfgnjsdfngjsdfng"
           bulletPoints={['Point 1', 'Point 2', 'Point 3']}
           additionalDescription="Additional optional description."
         />
           <Project
-            title="My Project"
-            imageUrl={img1}
+            title="FaveShop"
+            imageUrl={faveshop}
             description="<strong>This is the main</strong> project description."
             bulletPoints={['Point 1', 'Point 2', 'Point 3']}
             additionalDescription="Additional optional description."
         />
           <Project
-            title="My Project"
-            imageUrl={img1}
+            title="Animecharacter.io"
+            imageUrl={animecharacters}
             description="<strong>This is the main</strong> project description."
             bulletPoints={['Point 1', 'Point 2', 'Point 3']}
             additionalDescription="Additional optional description."
         />
           <Project
-            title="My Project"
-            imageUrl={img1}
+            title="Shell Sort Sequences Visualizer"
+            imageUrl={gif}
             description="<strong>This is the main</strong> project description."
             bulletPoints={['Point 1', 'Point 2', 'Point 3']}
             additionalDescription="Additional optional description."
