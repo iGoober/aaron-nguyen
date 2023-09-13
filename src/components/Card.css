@@ -66,7 +66,9 @@
 
 .card-text {
   flex: 1;
-  opacity: 0; 
+  opacity: 0;
+  max-height: 600px;
+  max-width: 400px;
 }
 
 .card.expanded .card-text {

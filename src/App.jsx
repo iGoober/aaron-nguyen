@@ -36,27 +36,20 @@ const App = () => {
         <h1>About Me</h1>
         <div className="card-row">
           <Card
+              title="School"
+              intro = "Non nobis solum nati sumus — Not unto ourselves alone are we born"
+              content="I'm a junior at Willamette University with a deep passion for Computer Science. The supportive community and departments here are something I truly cherish. I also worked at Willamette's IT, which ignited my interest in technology."
+              imageUrl={img7} 
+            />
+          <Card
             title="Family"
-            content="This picture was taken a long time ago when I was still a kid. That is me in the Beanie! "
+            content="This card isn't just about my family; it's also about the people I value most. My commitment to teamwork is motivated by my deepest values of family. I approach work with a similar unity to how I treat my loved ones, encouraging a supportive, collaborative workplace where everyone is appreciated and can succeed."
             intro = "Meet my family, where you'll find love, humor, and countless adventures."
             imageUrl={img8} 
-            item1="Supportive"
-            item2="Joyful"
-            item3="Traditional"
-            item4="Hardworking"
-          />
-          <Card
-            title="School"
-            intro = "Non nobis solum nati sumus — Not unto ourselves alone are we born"
-            content="adfsgsdfg sdfgsdV JSDFNGOJ AWSERUGJBEODFGJ EDNFGI UBSDG "
-            imageUrl={img7} 
-            item1="hi!"
-            item2="hi!"
-            item3="hi!"
-            item4="hi!"
           />
           <Card
             title="Everything Else"
+            content= "Other than learning more about Computer Science, I love playing Tennis, video games, and find myself teaching or giving advice in things I am able to help with. My favorite video game is either Zelda Twilight Princess or any Soulsborne game!"
             intro = "To live without passion is to merely exist; to live with passion is to truly thrive."
             imageUrl={img5} 
             item1="hi!"
