@@ -85,8 +85,8 @@ const App = () => {
             title="Shell Sort Sequences Visualizer"
             link = "https://github.com/iGoober/Gap-Sequence-Visualizer"
             imageUrl={gif}
-            description="I worked on a GUI project with two other team members that serves as my introduction to user-centric design. As we wanted to share and evaluate it with others, our main concern throughout its creation was making sure it suited to the demands of our target viewers."
-            bulletPoints={['Point 1', 'Point 2', 'Point 3']}
+            description="My first encounter with user-centric design ideas was when I worked with two team members on a GUI project. Our aim was to <strong>help users distinguish between various Shell Sort Sequences visually</strong>. As we aimed to share and accept input from others, our main concern during its creation was <strong>making sure it met to the demands of our target audience.</strong>"
+            bulletPoints={['Shell', 'Ciura', 'Sedgewick', 'Tokuda']}
         />
       </div>
       <div className ="dark">
