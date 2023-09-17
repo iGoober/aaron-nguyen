@@ -66,30 +66,27 @@ const App = () => {
         <Project
           title="Willamette I.T."
           imageUrl={willamette}
-          description="SJNJSDFGBNJBFGBDFuahsdfgajdfghhsdfbghsdfgjdnfgjdsjfgnjsdfgnjsdnfgjsdnfjgnsdfjgnsdjfgnjsdfgnjsdfngjsdfng"
-          bulletPoints={['Point 1', 'Point 2', 'Point 3']}
-          additionalDescription="Additional optional description."
+          description="As a technical assistant, my duties span from handling minor tasks like <strong>resolving on-call technical problems,</strong> to undertaking major projects like <strong>modernizing the University's network</strong>. We handle a diverse range of tasks, and the examples mentioned here are just a few among them."
         />
           <Project
             title="FaveShop"
+            link = "https://faveshop-web-supabase.vercel.app/"
             imageUrl={faveshop}
-            description="<strong>This is the main</strong> project description."
-            bulletPoints={['Point 1', 'Point 2', 'Point 3']}
-            additionalDescription="Additional optional description."
+            description="A simple website with a highly intricate core, <strong>showcasing real-time sales data from my favorite stores</strong>. This project holds a special place for me, as it allowed me to both implement and gain a deeper understanding of <strong>React, databases, cloud services, and APIs.</strong>"
+            bulletPoints={['Newegg', 'Ebay', 'Tennis Warehouse', 'Nike']}
         />
           <Project
             title="Animecharacter.io"
+            link = "https://anime-characters-io-ui.vercel.app/"
             imageUrl={animecharacters}
-            description="<strong>This is the main</strong> project description."
-            bulletPoints={['Point 1', 'Point 2', 'Point 3']}
-            additionalDescription="Additional optional description."
+            description="While this website remains a work in progress, it already <strong>showcases an extensive collection of anime data supported by a sophisticated database.</strong> I'm actively collaborating on this project with another developer, and my current focus is the integration of a game inspired by the classic board game Guess Who."
         />
           <Project
             title="Shell Sort Sequences Visualizer"
+            link = "https://github.com/iGoober/Gap-Sequence-Visualizer"
             imageUrl={gif}
-            description="<strong>This is the main</strong> project description."
+            description="I worked on a GUI project with two other team members that serves as my introduction to user-centric design. As we wanted to share and evaluate it with others, our main concern throughout its creation was making sure it suited to the demands of our target viewers."
             bulletPoints={['Point 1', 'Point 2', 'Point 3']}
-            additionalDescription="Additional optional description."
         />
       </div>
       <div className ="dark">

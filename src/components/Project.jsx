@@ -1,7 +1,7 @@
 import React from 'react';
 import './Project.css';
 
-const Project = ({ title, imageUrl, description, bulletPoints, additionalDescription }) => {
+const Project = ({ title, imageUrl, description, bulletPoints, link}) => {
   const boldText = '<strong>bold</strong>';
 
   return (
@@ -11,7 +11,15 @@ const Project = ({ title, imageUrl, description, bulletPoints, additionalDescrip
           <img src={imageUrl} alt={title} />
         </div>
         <div className="project-details">
-          <h3>{title}</h3>
+          <h3>
+              {link ? (
+                <a href={link} target="_blank" rel="noopener noreferrer">
+                  {title}
+                </a>
+              ) : (
+                title
+              )}
+            </h3>
           <p dangerouslySetInnerHTML={{ __html: description.replace('bold', boldText) }}></p>
           {bulletPoints && (
             <ul>
@@ -20,7 +28,6 @@ const Project = ({ title, imageUrl, description, bulletPoints, additionalDescrip
               ))}
             </ul>
           )}
-          {additionalDescription && <p>{additionalDescription}</p>}
         </div>
       </div>
     </div>
