@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import './Card.css';
 
-const Card = ({ title, content, intro, imageUrl, item1, item2, item3, item4 }) => {
+const Card = ({ title, content, intro, imageUrl, }) => {
   const [expanded, setExpanded] = useState(false);
 
   const handleCardClick = () => {
@@ -19,14 +19,6 @@ const Card = ({ title, content, intro, imageUrl, item1, item2, item3, item4 }) =
         <div className = "card-text">
           {expanded && <p className="intro">{intro}</p>}
           {expanded && <p>{content}</p>}
-          {expanded && (
-          <ul className="list">
-            <li>{item1}</li>
-            <li>{item2}</li>
-            <li>{item3}</li>
-            <li>{item4}</li>
-          </ul>
-        )}
         </div>
       </div>
     </div>

@@ -8,7 +8,7 @@ import img5 from './assets/IMG_8782.jpg'
 import img6 from './assets/funny.jpg'
 import img7 from './assets/cropped2.jpg'
 import img8 from './assets/cropped3.jpg'
-import gif from './assets/1.gif'
+import gif from './assets/train.gif'
 import willamette from './assets/willamette.png'
 import faveshop from './assets/faveshop.png'
 import animecharacters from './assets/animecharacters.png'
@@ -38,24 +38,20 @@ const App = () => {
           <Card
               title="School"
               intro = "Non nobis solum nati sumus — Not unto ourselves alone are we born"
-              content="I'm a junior at Willamette University with a deep passion for Computer Science. The supportive community and departments here are something I truly cherish. I also worked at Willamette's IT, which ignited my interest in technology."
+              content="I'm a junior at Willamette University who began as a Biology Major but developed a strong passion for Computer Science. The welcoming community and outstanding departments here captured my heart, and I'm really looking forward to the upcoming year to learn more!"
               imageUrl={img7} 
             />
           <Card
             title="Family"
-            content="This card isn't just about my family; it's also about the people I value most. My commitment to teamwork is motivated by my deepest values of family. I approach work with a similar unity to how I treat my loved ones, encouraging a supportive, collaborative workplace where everyone is appreciated and can succeed."
-            intro = "Meet my family, where you'll find love, humor, and countless adventures."
+            content="This card symbolizes not just my family but also the dear people in my life. I enjoy collaborating with others and bring the same sense of unity I have for my family to my work, creating a supportive and collaborative environment where everyone is valued and can succeed."
+            intro = "Meet my family, where you'll find love, humor, and countless adventures"
             imageUrl={img8} 
           />
           <Card
             title="Everything Else"
-            content= "Other than learning more about Computer Science, I love playing Tennis, video games, and find myself teaching or giving advice in things I am able to help with. My favorite video game is either Zelda Twilight Princess or any Soulsborne game!"
-            intro = "To live without passion is to merely exist; to live with passion is to truly thrive."
+            content= "Besides learning, I also enjoy Tennis, video games, teaching, and problem-solving with others. My favorite video game right now is either Zelda Twilight Princess or any Soulsborne game!"
+            intro = "Choose a job you love, and you will never have to work a day in your life"
             imageUrl={img5} 
-            item1="hi!"
-            item2="hi!"
-            item3="hi!"
-            item4="hi!"
           />
         </div>
       </div>
@@ -72,7 +68,7 @@ const App = () => {
             title="FaveShop"
             link = "https://faveshop-web-supabase.vercel.app/"
             imageUrl={faveshop}
-            description="A simple website with a highly intricate core, <strong>showcasing real-time sales data from my favorite stores</strong>. This project holds a special place for me, as it allowed me to both implement and gain a deeper understanding of <strong>React, databases, cloud services, and APIs.</strong>"
+            description="A simple website with a highly intricate core, <strong>showcasing real-time sales from my favorite stores</strong>. This project holds a special place for me, as it allowed me to both implement and gain a deeper understanding of <strong>React, databases, cloud services, and APIs.</strong>"
             bulletPoints={['Newegg', 'Ebay', 'Tennis Warehouse', 'Nike']}
         />
           <Project
