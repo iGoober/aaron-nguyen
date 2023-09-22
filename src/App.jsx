@@ -43,7 +43,7 @@ const App = () => {
             />
           <Card
             title="Family"
-            content="This card symbolizes not just my family but also the dear people in my life. I enjoy collaborating with others and bring the same sense of unity I have for my family to my work, creating a supportive and collaborative environment where everyone is valued and can succeed."
+            content="This card symbolizes not just my family but also the important people in my life. I enjoy collaborating with others and bring the same sense of unity I have for my family to my work, creating a supportive and collaborative environment where everyone is valued and can succeed."
             intro = "Meet my family, where you'll find love, humor, and countless adventures"
             imageUrl={img8} 
           />
@@ -68,7 +68,7 @@ const App = () => {
             title="FaveShop"
             link = "https://faveshop-web-supabase.vercel.app/"
             imageUrl={faveshop}
-            description="A simple website with a highly intricate core, <strong>showcasing real-time sales from my favorite stores</strong>. This project holds a special place for me, as it allowed me to both implement and gain a deeper understanding of <strong>React, databases, cloud services, and APIs.</strong>"
+            description="A simple website with a highly intricate core, <strong>showcasing real-time sales from my favorite stores by utilizing AWS</strong>. This project holds a special place for me, as it allowed me to both implement and gain a deeper understanding of <strong>React, databases, cloud services, and APIs.</strong>"
             bulletPoints={['Newegg', 'Ebay', 'Tennis Warehouse', 'Nike']}
         />
           <Project
