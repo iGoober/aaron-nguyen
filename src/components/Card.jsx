@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import './Card.css';
 
-const Card = ({ title, content, intro, imageUrl, }) => {
+const Card = ({ title, intro, imageUrl, }) => {
   const [expanded, setExpanded] = useState(false);
 
   const handleCardClick = () => {
@@ -18,7 +18,6 @@ const Card = ({ title, content, intro, imageUrl, }) => {
         {expanded && <img src={imageUrl} draggable={false} alt={title} />}
         <div className = "card-text">
           {expanded && <p className="intro">{intro}</p>}
-          {expanded && <p>{content}</p>}
         </div>
       </div>
     </div>

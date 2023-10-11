@@ -8,7 +8,7 @@ import img5 from './assets/IMG_8782.jpg'
 import img6 from './assets/funny.jpg'
 import img7 from './assets/cropped2.jpg'
 import img8 from './assets/cropped3.jpg'
-import gif from './assets/train.gif'
+import working from './assets/working.jpg'
 import willamette from './assets/willamette.png'
 import faveshop from './assets/faveshop.png'
 import animecharacters from './assets/animecharacters.png'
@@ -37,20 +37,17 @@ const App = () => {
         <div className="card-row">
           <Card
               title="School"
-              intro = "Non nobis solum nati sumus — Not unto ourselves alone are we born"
-              content="I'm a junior at Willamette University who began as a Biology Major but developed a strong passion for Computer Science. The welcoming community and outstanding departments here captured my heart, and I'm really looking forward to the upcoming year to learn more!"
+              intro = "I'm a junior at Willamette University who began as a Biology Major but developed a strong passion for Computer Science. The welcoming community and outstanding professors here captured my heart, and I'm really excited for the upcoming year to learn more!"
               imageUrl={img7} 
             />
           <Card
             title="Family"
-            content="This card symbolizes not just my family but also the important people in my life. I enjoy collaborating with others and bring the same sense of unity I have for my family to my work, creating a supportive and collaborative environment where everyone is valued and can succeed."
-            intro = "Meet my family, where you'll find love, humor, and countless adventures"
+            intro = "This card symbolizes not just my family but also the important people in my life. I enjoy collaborating with others and bring the same sense of unity I have for my family to my work, creating a supportive and collaborative environment where everyone is valued and can succeed."
             imageUrl={img8} 
           />
           <Card
             title="Everything Else"
-            content= "Besides learning, I also enjoy Tennis, video games, teaching, and problem-solving with others. My favorite video game right now is either Zelda Twilight Princess or any Soulsborne game!"
-            intro = "Choose a job you love, and you will never have to work a day in your life"
+            intro= "Besides learning, I also enjoy Tennis, video games, teaching, and problem-solving with others. My favorite video game right now is either Zelda Twilight Princess or any Soulsborne game!"
             imageUrl={img5} 
           />
         </div>
@@ -78,11 +75,10 @@ const App = () => {
             description="While this website remains a work in progress, it already <strong>showcases an extensive collection of anime data supported by a sophisticated database.</strong> I'm actively collaborating on this project with another developer, and my current focus is the integration of a game inspired by the classic board game Guess Who."
         />
           <Project
-            title="Shell Sort Sequences Visualizer"
-            link = "https://github.com/iGoober/Gap-Sequence-Visualizer"
-            imageUrl={gif}
-            description="My first encounter with user-centric design ideas was when I worked with two team members on a GUI project. Our aim was to <strong>help users distinguish between various Shell Sort Sequences visually</strong>. As we aimed to share and accept input from others, our main concern during its creation was <strong>making sure it met to the demands of our target audience.</strong>"
-            bulletPoints={['Shell', 'Ciura', 'Sedgewick', 'Tokuda']}
+          title="Climate Closet"
+          link = "https://weatherwear-one.vercel.app/"
+          imageUrl={working}
+          description="This website is a school project I'm leading with two other members. Our aim is to assist users, especially transfer students at Willamette, in staying updated on Salem, Oregon's weather and giving them advice on what to wear. We appreciate feedback and are dedicated to meeting our audience's needs."
         />
       </div>
       <div className ="dark">
