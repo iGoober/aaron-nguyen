@@ -59,20 +59,20 @@ const App = () => {
         <Project
           title="Willamette I.T."
           imageUrl={willamette}
-          description="As a technical assistant, my duties span from handling minor tasks like <strong>resolving on-call technical problems,</strong> to undertaking major projects like <strong>modernizing the University's network</strong>. We handle a diverse range of tasks, and the examples mentioned here are just a few among them."
+          description="As a technical assistant, my duties span from handling minor tasks like resolving on-call technical problems, to undertaking major projects like modernizing the University's network. We handle a diverse range of tasks, and the examples mentioned here are just a few among them."
         />
           <Project
             title="FaveShop"
             link = "https://faveshop-web-supabase.vercel.app/"
             imageUrl={faveshop}
-            description="A simple website with a highly intricate core, <strong>showcasing real-time sales from my favorite stores by utilizing AWS</strong>. This project holds a special place for me, as it allowed me to both implement and gain a deeper understanding of <strong>React, databases, cloud services, and APIs.</strong>"
+            description="A simple website with a highly intricate core, showcasing real-time sales from my favorite stores by utilizing AWS. This project holds a special place for me, as it allowed me to both implement and gain a deeper understanding of React, databases, cloud services, and APIs."
             bulletPoints={['Newegg', 'Ebay', 'Tennis Warehouse', 'Nike']}
         />
           <Project
             title="Animecharacter.io"
             link = "https://anime-characters-io-ui.vercel.app/"
             imageUrl={animecharacters}
-            description="While this website remains a work in progress, it already <strong>showcases an extensive collection of anime data supported by a sophisticated database.</strong> I'm actively collaborating on this project with another developer, and my current focus is the integration of a game inspired by the classic board game Guess Who."
+            description="While this website remains a work in progress, it already showcases an extensive collection of anime data supported by a sophisticated database. I'm actively collaborating on this project with another developer, and my current focus is the integration of a game inspired by the classic board game Guess Who."
         />
           <Project
           title="Climate Closet"

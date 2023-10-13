@@ -2,8 +2,6 @@ import React from 'react';
 import './Project.css';
 
 const Project = ({ title, imageUrl, description, bulletPoints, link}) => {
-  const boldText = '<strong>bold</strong>';
-
   return (
     <div className="project-card">
       <div className="project-content">
@@ -20,7 +18,7 @@ const Project = ({ title, imageUrl, description, bulletPoints, link}) => {
                 title
               )}
             </h3>
-          <p dangerouslySetInnerHTML={{ __html: description.replace('bold', boldText) }}></p>
+          <p> {description}</p>
           {bulletPoints && (
             <ul>
               {bulletPoints.map((point, index) => (
