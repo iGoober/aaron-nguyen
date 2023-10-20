@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import './Carousel.css';
 
 const Carousel = ({ images }) => {
@@ -34,6 +34,22 @@ const Carousel = ({ images }) => {
     }
   };
 
+  useEffect(() => {
+    const handleKeyDown = (e) => {
+      if (e.key === 'ArrowLeft') {
+        prevSlide();
+      } else if (e.key === 'ArrowRight') {
+        nextSlide();
+      }
+    };
+
+    document.addEventListener('keydown', handleKeyDown);
+
+    return () => {
+      document.removeEventListener('keydown', handleKeyDown);
+    };
+  }, []);
+
   return (
     <div className="carousel">
       <div className="image-container">
@@ -42,12 +58,14 @@ const Carousel = ({ images }) => {
           <button onClick={() => scrollToSection('work-section')}>Work</button>
           <button onClick={() => scrollToSection('contact-section')}>Contact</button>
         </div>
+        <div className="arrow left" onClick={prevSlide}>&#9664;</div>
         <img
           onClick={handleImageClick}
           draggable={false}
           src={images[currentIndex]}
           alt={`Slide ${currentIndex}`}
         />
+        <div className="arrow right" onClick={nextSlide}>&#9654;</div>
         <div className="carousel-slides">
           {images.map((_, index) => (
             <div
