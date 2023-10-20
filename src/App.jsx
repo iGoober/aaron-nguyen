@@ -47,7 +47,7 @@ const App = () => {
           />
           <Card
             title="Everything Else"
-            intro= "Besides learning, I also enjoy Tennis, video games, teaching, and problem-solving with others. My favorite video game right now is either Zelda Twilight Princess or any Soulsborne game!"
+            intro= "Besides learning, I also enjoy tennis, video games, teaching, and problem-solving with others. My favorite video game right now is either Zelda: Twilight Princess or any Soulsborne game!"
             imageUrl={img5} 
           />
         </div>
@@ -66,7 +66,7 @@ const App = () => {
             link = "https://faveshop-web-supabase.vercel.app/"
             imageUrl={faveshop}
             description="A simple website with a highly intricate core, showcasing real-time sales from my favorite stores by utilizing AWS. This project holds a special place for me, as it allowed me to both implement and gain a deeper understanding of React, databases, cloud services, and APIs."
-            bulletPoints={['Newegg', 'Ebay', 'Tennis Warehouse', 'Nike']}
+            bulletPoints={['Ebay', 'Nike', 'Tennis Warehouse', 'Playstation Store']}
         />
           <Project
             title="Animecharacter.io"
