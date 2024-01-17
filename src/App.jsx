@@ -47,7 +47,7 @@ const App = () => {
           />
           <Card
             title="Everything Else"
-            intro= "Besides learning, I also enjoy tennis, video games, teaching, and problem-solving with others. My favorite video game right now is either Zelda: Twilight Princess or any Soulsborne game!"
+            intro= "Besides learning, I also enjoy tennis, video games, teaching, and problem-solving with others. My favorite video game as a child was Zelda: Twilight Princess!"
             imageUrl={img5} 
           />
         </div>
